@@ -1,27 +1,11 @@
-/******************************************************************************
-START Glitch hello-app default styles
 
-The styles in this section do some minimal CSS resets, set default fonts and 
-colors, and handle the layout for our footer and "Remix on Glitch" button. If
-you're new to CSS they may seem a little complicated, but you can scroll down
-to this section's matching END comment to see page-specific styles.
-******************************************************************************/
-
-
-/* 
-  The style rules specify elements by type and by attributes such as class and ID
-  Each section indicates an element or elements, then lists the style properties to apply
-  See if you can cross-reference the rules in this file with the elements in index.html
-*/
 
 /* Our default values set as CSS variables */
 :root {
-  --color-bg: #9FD5B5;
+  background-image: url("https://cdn.glitch.global/1f82b41e-9438-4732-a05d-a5b787e16a7d/ranger-4df6c1b6.png?v=1673454158502");
   --color-text-main: #000000;
   --color-primary: #FFFF00;
   --wrapper-height: 87vh;
-  --image-max-width: 300px;
-  --image-margin: 3rem;
   --font-family: "HK Grotesk";
   --font-family-header: "HK Grotesk";
 }
@@ -131,7 +115,7 @@ body {
 
 /* Very light scaling for our illustration */
 .title {
-  color: #235347;
+  color: #000000;
   font-family: HK Grotesk;
   font-style: normal;
   font-weight: bold;
@@ -152,6 +136,19 @@ body {
   margin: 1rem auto 0;
 }
 
+.square {
+  height: 50px;
+  width: 50px;
+  background-color: #ffebcd;
+}
+
+.menu{
+    background:#4682b4;
+    max-width:500px;
+    margin:0 auto;
+    color:white;
+}
+
 /* Button - Add it from the README instructions */
 button,
 input {
@@ -167,7 +164,7 @@ input {
 
 /* Subheading */
 h2 {
-  color: #301934;
+  color: ;
 }
 
 h3 {
