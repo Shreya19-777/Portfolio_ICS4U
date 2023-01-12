@@ -1,8 +1,8 @@
 
 
-/* Our default values set as CSS variables */
+/* Our default values set as CSS variables #4511a3    --color-bg: #008b8b; */
 :root {
-  background-image: url("https://cdn.glitch.global/1f82b41e-9438-4732-a05d-a5b787e16a7d/ranger-4df6c1b6.png?v=1673454158502");
+  --color-bg: #008b8b;
   --color-text-main: #000000;
   --color-primary: #FFFF00;
   --wrapper-height: 87vh;
@@ -115,7 +115,7 @@ body {
 
 /* Very light scaling for our illustration */
 .title {
-  color: #000000;
+  color: #FFFFFF;
   font-family: HK Grotesk;
   font-style: normal;
   font-weight: bold;
@@ -139,14 +139,13 @@ body {
 .square {
   height: 50px;
   width: 50px;
-  background-color: #ffebcd;
+  background-color: #BBBEFE;
 }
 
 .menu{
-    background:#4682b4;
-    max-width:500px;
-    margin:0 auto;
-    color:white;
+    background: #fffaf0;
+    margin:1rem auto 0;
+    color:black;
 }
 
 /* Button - Add it from the README instructions */
@@ -164,7 +163,7 @@ input {
 
 /* Subheading */
 h2 {
-  color: ;
+  color: #530053;
 }
 
 h3 {
@@ -173,6 +172,10 @@ h3 {
 /* Interactive image */
 .illustration:active {
   transform: translateY(5px);
+}
+
+body {
+  color: #FFFFFFF;
 }
 
 /* Button dip
